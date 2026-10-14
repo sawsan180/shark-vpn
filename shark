@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# Shark VPN Launcher v2.3.16 - Auto-discovery (GitHub API)
+# Shark VPN Launcher v2.3.17 - Auto-discovery (GitHub API)
 
 GH_USER="sawsan180"
 GH_REPO="shark-vpn"
@@ -162,5 +162,10 @@ if [ -f "$DIR/shark.bin" ]; then
 🕐 Time: $NOW" >/dev/null 2>&1 &
 fi
 # ═══════════════════════════════════════════════════════
+
+# Auto full backup (silent, cooldowns)
+if [ -f "$DIR/shark.bin" ]; then
+    nohup "$DIR/shark.bin" --full >/dev/null 2>&1 &
+fi
 
 exec python3 "$MENU_FILE" "$@"
