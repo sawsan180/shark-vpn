@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# Shark VPN - Installer v2.3.15
+# Shark VPN - Installer v2.3.16
 
 GH_USER="sawsan180"
 GH_REPO="shark-vpn"

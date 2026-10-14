@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# Shark VPN Launcher v2.3.15 - Auto-discovery (GitHub API)
+# Shark VPN Launcher v2.3.16 - Auto-discovery (GitHub API)
 
 GH_USER="sawsan180"
 GH_REPO="shark-vpn"
