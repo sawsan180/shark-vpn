@@ -1,0 +1,8 @@
+*.toml
+aether.toml
+aether-lastconn.toml
+*.bak
+*.log
+telegram.conf
+.shark/
+.sharoob/
